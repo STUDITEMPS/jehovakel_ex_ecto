@@ -1,4 +1,4 @@
-use Mix.Config
+import Config
 
 config :jehovakel_ex_ecto, ecto_repos: [JehovakelExEcto.Repo]
 
