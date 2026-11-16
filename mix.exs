@@ -5,7 +5,7 @@ defmodule Shared.Ecto.MixProject do
     [
       app: :jehovakel_ex_ecto,
       version: "1.0.0",
-      elixir: "~> 1.7",
+      elixir: "~> 1.18",
       elixirc_paths: elixirc_paths(Mix.env()),
       start_permanent: Mix.env() == :prod,
       test_paths: ["lib"],
